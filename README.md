@@ -3,7 +3,6 @@
 [![GitHub version][gulp-less-json-variables-fury-image]][gulp-less-json-variables-fury-url]
 [![Dependency Status][gulp-less-json-variables-dependencies-image]][gulp-less-json-variables-dependencies-url]
 [![devDependency Status][gulp-less-json-variables-devdependencies-image]][gulp-less-json-variables-devdependencies-url]
-[![peerDependency Status][gulp-less-json-variables-peerdependencies-image]][gulp-less-json-variables-peerdependencies-url]
 [![Build Status][gulp-less-json-variables-travis-image]][gulp-less-json-variables-travis-url]
 [![Coverage Status][gulp-less-json-variables-coverage-image]][gulp-less-json-variables-coverage-url]
 
@@ -46,7 +45,6 @@ Create a JSON config file like this:
   "@gray-darker": "lighten(@gray-base, 13.5%)",
   "@gray-dark": "lighten(@gray-base, 20%)",
   "@gray": "lighten(@gray-base, 33.5%)",
-...
 }
 ```
 this file contains the coupled key value representing less variables.
@@ -80,15 +78,15 @@ _(Nothing yet)_
 Licensed under the MIT license.
 
 
-[gulp-less-json-variables-fury-image]: https://badge.fury.io/gh/patiernom%2Fgulp-less-json-variables-load-projects.svg
-[gulp-less-json-variables-fury-url]: http://badge.fury.io/gh/patiernom%2Fgulp-less-json-variables-load-projects
-[gulp-less-json-variables-dependencies-image]: https://david-dm.org/patiernom/gulp-less-json-variables-load-projects.svg
-[gulp-less-json-variables-dependencies-url]: https://david-dm.org/patiernom/gulp-less-json-variables-load-projects
-[gulp-less-json-variables-devdependencies-image]: https://david-dm.org/patiernom/gulp-less-json-variables-load-projects/dev-status.svg
-[gulp-less-json-variables-devdependencies-url]: https://david-dm.org/patiernom/gulp-less-json-variables-load-projects#info=devDependencies
-[gulp-less-json-variables-peerdependencies-image]: https://david-dm.org/patiernom/gulp-less-json-variables-load-projects/peer-status.svg
-[gulp-less-json-variables-peerdependencies-url]: https://david-dm.org/patiernom/gulp-less-json-variables-load-projects#info=peerDependencies
-[gulp-less-json-variables-travis-image]: https://travis-ci.org/patiernom/gulp-less-json-variables-load-projects.svg?branch=master
-[gulp-less-json-variables-travis-url]: https://travis-ci.org/patiernom/gulp-less-json-variables-load-projects
-[gulp-less-json-variables-coverage-image]: https://coveralls.io/repos/patiernom/gulp-less-json-variables-load-projects/badge.svg?branch=master&service=github
-[gulp-less-json-variables-coverage-url]: https://coveralls.io/github/patiernom/gulp-less-json-variables-load-projects?branch=master
+[gulp-less-json-variables-fury-image]: https://badge.fury.io/gh/patiernom%2Fgulp-less-json-variables.svg
+[gulp-less-json-variables-fury-url]: http://badge.fury.io/gh/patiernom%2Fgulp-less-json-variables
+[gulp-less-json-variables-dependencies-image]: https://david-dm.org/patiernom/gulp-less-json-variables.svg
+[gulp-less-json-variables-dependencies-url]: https://david-dm.org/patiernom/gulp-less-json-variables
+[gulp-less-json-variables-devdependencies-image]: https://david-dm.org/patiernom/gulp-less-json-variables/dev-status.svg
+[gulp-less-json-variables-devdependencies-url]: https://david-dm.org/patiernom/gulp-less-json-variables#info=devDependencies
+[gulp-less-json-variables-peerdependencies-image]: https://david-dm.org/patiernom/gulp-less-json-variables/peer-status.svg
+[gulp-less-json-variables-peerdependencies-url]: https://david-dm.org/patiernom/gulp-less-json-variables#info=peerDependencies
+[gulp-less-json-variables-travis-image]: https://travis-ci.org/patiernom/gulp-less-json-variables.svg?branch=master
+[gulp-less-json-variables-travis-url]: https://travis-ci.org/patiernom/gulp-less-json-variables
+[gulp-less-json-variables-coverage-image]: https://coveralls.io/repos/patiernom/gulp-less-json-variables/badge.svg?branch=master&service=github
+[gulp-less-json-variables-coverage-url]: https://coveralls.io/github/patiernom/gulp-less-json-variables?branch=master
