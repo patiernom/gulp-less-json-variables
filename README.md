@@ -6,7 +6,7 @@
 [![Build Status][gulp-less-json-variables-travis-image]][gulp-less-json-variables-travis-url]
 [![Coverage Status][gulp-less-json-variables-coverage-image]][gulp-less-json-variables-coverage-url]
 
-# Gulp less variables from JSON
+# Gulp write less variables from JSON
 
 A simple plugin for [Gulp](http://gulpjs.com/). This module write on source file, specified less variables from JSON config file.
 
