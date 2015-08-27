@@ -1,6 +1,6 @@
 {
   "name": "gulp-less-json-variables",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A Gulp plugin for generate less variables file from JSON file",
   "keywords": [
     "gulp",
