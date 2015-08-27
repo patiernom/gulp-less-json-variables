@@ -1,0 +1,9 @@
+.idea
+*.yml
+node_modules/
+tests/
+.gitignore
+.jscsrc
+.jshintrc
+gulpfile.js
+.npmignore

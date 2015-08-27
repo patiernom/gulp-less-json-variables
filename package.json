@@ -1,0 +1,54 @@
+{
+  "name": "gulp-less-json-variables",
+  "version": "1.0.0",
+  "description": "A Gulp plugin for generate less variables file from JSON file",
+  "keywords": [
+    "gulp",
+    "plugin",
+    "less",
+    "variables",
+    "json"
+  ],
+  "author": "Marco Patierno",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patiernom/gulp-less-json-variables.git"
+  },
+  "bugs": {
+    "url": "https://github.com/patiernom/gulp-less-json-variables/issues"
+  },
+  "homepage": "https://github.com/patiernom/gulp-less-json-variables#readme",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.22"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.6",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "coveralls": "^2.11.2",
+    "event-stream": "^3.3.1",
+    "from2-string": "^1.1.0",
+    "gulp": "^3.9.0",
+    "gulp-istanbul": "^0.10.0",
+    "gulp-jscs": "^1.6.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-mocha": "^2.1.3",
+    "istanbul": "^0.3.17",
+    "jshint-stylish": "^2.0.1",
+    "mocha": "^2.2.5",
+    "mocha-lcov-reporter": "0.0.2",
+    "vinyl": "^0.5.1"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha $(find tests -name '*.js') --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  }
+}
