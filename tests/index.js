@@ -76,17 +76,11 @@ describe('Gulp plugin gulp-less-json-variables', function () {
                     "@link-hover-decoration": "underline",
                     "@font-family-sans-serif": "\"Helvetica Neue\", Helvetica, Arial, sans-serif"
                 },
-                stringVariables =
-                    '@gray-base = #000;\n' +
-                    '@gray-darker = lighten(@gray-base, 13.5%);\n' +
-                    '@link-hover-decoration = underline;\n' +
-                    '@font-family-sans-serif = \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n'
-                ,
                 arrayVariables = [
-                    '@gray-base = #000;\n',
-                    '@gray-darker = lighten(@gray-base, 13.5%);\n',
-                    '@link-hover-decoration = underline;\n',
-                    '@font-family-sans-serif = \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n'
+                    '@gray-base: #000;\n',
+                    '@gray-darker: lighten(@gray-base, 13.5%);\n',
+                    '@link-hover-decoration: underline;\n',
+                    '@font-family-sans-serif: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n'
                 ],
                 expectFile;
 

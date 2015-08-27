@@ -7,7 +7,7 @@ var PLUGIN_NAME = 'gulp-less-json-variables',
     util = require('util');
 
 function formatVariable(key, value){
-    return util.format('%s = %s;\n', key.toString(), value);
+    return util.format('%s: %s;\n', key.toString(), value);
 }
 
 function writeVariable(jsonVariables){

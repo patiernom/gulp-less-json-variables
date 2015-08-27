@@ -70,7 +70,7 @@ In line of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 
-_(Nothing yet)_
+27/08/2015 - v1.0.4 - Fix variable row generation with the character ":" instead of "=".
 
 
 ## License
