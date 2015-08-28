@@ -17,7 +17,7 @@ The easiest way is to keep `gulp-less-json-variables` as a devDependency in your
 {
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-less-json-variables": "1.0.0"
+    "gulp-less-json-variables": "1.0.4"
   }
 }
 ```
@@ -56,7 +56,7 @@ var gulp = require('gulp'),
     jsonVars = require('variables.json');
 
 gulp.task('generate less variables', function() {
-  return gulp.src('less/variables.js')
+  return gulp.src('less/**/*.less')
     .pipe(lessVars(jsonVars))
     .pipe(gulp.dest('dist'));
 });
